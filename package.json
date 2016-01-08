@@ -21,5 +21,15 @@
   "bugs": {
     "url": "https://github.com/aredridel/log-timestream/issues"
   },
-  "homepage": "https://github.com/aredridel/log-timestream#readme"
+  "homepage": "https://github.com/aredridel/log-timestream#readme",
+  "dependencies": {
+    "split": "^1.0.0",
+    "stream-combiner": "^0.2.2",
+    "through2": "^2.0.0",
+    "timestream": "^0.1.1",
+    "yargs": "^3.31.0"
+  },
+  "devDependencies": {
+    "bistre": "^1.0.1"
+  }
 }
