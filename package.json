@@ -1,0 +1,25 @@
+{
+  "name": "log-timestream",
+  "version": "1.0.0",
+  "description": "Tools for dealing with logs as a stream of events for analysis",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aredridel/log-timestream.git"
+  },
+  "keywords": [
+    "timestream",
+    "histogram",
+    "log",
+    "analysis"
+  ],
+  "author": "Aria Stewart <aredridel@dinhe.net>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aredridel/log-timestream/issues"
+  },
+  "homepage": "https://github.com/aredridel/log-timestream#readme"
+}
