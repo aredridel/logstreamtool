@@ -6,6 +6,7 @@
   "scripts": {
     "test": "tap test.js"
   },
+  "bin": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/aredridel/log-timestream.git"
