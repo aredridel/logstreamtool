@@ -1,7 +1,7 @@
 {
-  "name": "log-timestream",
+  "name": "logstreamtool",
   "version": "1.0.0",
-  "description": "Tools for dealing with logs as a stream of events for analysis",
+  "description": "Tool for dealing with logs as a stream of events for analysis",
   "main": "index.js",
   "scripts": {
     "test": "tap test.js"
@@ -9,7 +9,7 @@
   "bin": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aredridel/log-timestream.git"
+    "url": "git+https://github.com/aredridel/logstreamtool.git"
   },
   "keywords": [
     "timestream",
@@ -20,9 +20,9 @@
   "author": "Aria Stewart <aredridel@dinhe.net>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/aredridel/log-timestream/issues"
+    "url": "https://github.com/aredridel/logstreamtool/issues"
   },
-  "homepage": "https://github.com/aredridel/log-timestream#readme",
+  "homepage": "https://github.com/aredridel/logstreamtool#readme",
   "dependencies": {
     "split": "^1.0.0",
     "stream-combiner": "^0.2.2",
