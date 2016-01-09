@@ -1,6 +1,6 @@
 {
   "name": "logstreamtool",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Tool for dealing with logs as a stream of events for analysis",
   "main": "index.js",
   "scripts": {
