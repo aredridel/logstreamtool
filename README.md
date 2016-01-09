@@ -15,7 +15,17 @@ logstreamtool [--bole] [--sum hour] < logfile
 
 * `--bole` Process timestamps in the `time` field and parse them as ISO8601 dates.
 * `--sum period` Sum the values of each field in the period.
+* `--mean period` Take the mean of the values in each period.
+* `--mode period` Take the mode of the values in each period.
+* `--median period` Take the median of the values in each period.
+* `--variance period` Take the variance of the values in each period.
+* `--stdev period` Take the standard deviation of the values in each period.
+* `--min period` Take the minimum value in each period.
+* `--max period` Take the maximum value in each period.
 * `--count period` Count the occurances of each key in the period.
+* `--first period` Take the first value in each period.
+* `--last period` Take the last value in each period.
+* `--sample period` Take a random value from each period.
 
 ### Periods
 
