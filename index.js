@@ -17,12 +17,13 @@ if (argv.bole) {
 
 var timestream = timestream(stream);
 
-if (argv.sum) {
-	timestream = timestream.sum(argv.sum);
-}
-if (argv.count) {
-	timestream = timestream.count(argv.count);
-}
+var aggregates = ['sum', 'mean', 'mode', 'median', 'variance', 'stdev', 'percentile', 'min', 'max', 'count', 'first', 'last', 'sample'];
+
+aggregates.forEach(function (option) {
+	if (argv[option]) {
+		timestream = timestream[option](argv[option]);
+	}
+});
 
 timestream.pipe(through2.obj(function (e, _, cb) {
 	this.push(JSON.stringify(e));
