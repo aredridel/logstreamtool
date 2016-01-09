@@ -17,7 +17,7 @@ if (argv.bole) {
 
 var timestream = timestream(stream);
 
-var aggregates = ['sum', 'mean', 'mode', 'median', 'variance', 'stdev', 'percentile', 'min', 'max', 'count', 'first', 'last', 'sample'];
+var aggregates = ['sum', 'mean', 'mode', 'median', 'variance', 'stdev', 'min', 'max', 'count', 'first', 'last', 'sample'];
 
 aggregates.forEach(function (option) {
 	if (argv[option]) {
